@@ -1,0 +1,28 @@
+Perfroming a NMAP scan for your home network to identify if the targeted audience is connected to the netwrok.
+
+The Scan can be performed by using command:
+root@kali:/home/kali/Downloads# nmap -sn 192.168.0.0/24
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-02 03:34 EDT
+Nmap scan report for ralink.dlink.com (192.168.0.1)
+Host is up (0.00072s latency).
+MAC Address: E4:6F:13:21:50:39 (D-Link International)
+Nmap scan report for 192.168.0.100
+Host is up (0.0056s latency).
+MAC Address: 18:F0:E4:A4:03:57 (Xiaomi Communications)
+Nmap scan report for 192.168.0.101
+Host is up (0.0021s latency).
+MAC Address: 38:E6:0A:20:5A:0D (Xiaomi Communications)
+Nmap scan report for 192.168.0.104
+Host is up (0.00039s latency).
+MAC Address: 00:0C:29:EF:5C:69 (VMware)
+Nmap scan report for 192.168.0.106
+Host is up (0.00011s latency).
+MAC Address: 00:2B:67:47:5D:4D (Unknown)
+Nmap scan report for 192.168.0.105
+Host is up.
+Nmap done: 256 IP addresses (6 hosts up) scanned in 1.83 seconds
+root@kali:/home/kali/Downloads#
+
+In the above scan as an internal member of the group you know what netwrok you have to scan.
+This can be queried through command prompt and identified.
+Here we can get information with mac address and manufacturer. 
